@@ -6,7 +6,12 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>cookie.jsp<br>
-
+<body>
+	<h3>delSession</h3>
+	id : ${sessionScope.id }<br>
+	name : ${name }<br>
+	addr : ${addr }<hr>
+	<a href="makeSession">makeSession 이동</a>
+	<a href="resultSession">resultSession 이동</a>
 </body>
 </html>
